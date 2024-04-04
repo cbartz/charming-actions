@@ -40,7 +40,7 @@ runs:
       exit 0
     shell: bash
   - name: Dump charmcraft logs
-    uses: actions/upload-artifact@v3
+    uses: actions/upload-artifact@a8a3f3ad30e3422c9c7b888a15615d19a852ae32 # v3
     with:
       name: charmcraft-logs
       path: ~/.local/state/charmcraft/log/*.log
